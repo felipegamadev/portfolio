@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "strict": true,
+        "skipLibCheck": true,
+        "incremental": true,
+        "baseUrl": "./",
+        "paths": {
+            "@api/*": ["./apps/api/src/*"]
+        }
+    }
+}

@@ -12,6 +12,12 @@
         "url": "https://github.com/felipegamadev/portfolio"
     },
     "license": "MIT",
+    "workspaces": [
+        "apps/*"
+    ],
+    "scripts": {
+        "api": "yarn workspace @portfolio/api"
+    },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^6.4.0",
         "eslint": "^8.0.1",
