@@ -1,11 +1,15 @@
 {
+    "root": true,
     "env": {
         "browser": true,
         "es2021": true,
+        "jest": true,
         "node": true
     },
     "extends": [
         "standard-with-typescript",
+        "next",
+        "next/core-web-vitals",
         "plugin:react/recommended",
         "prettier"
     ],

@@ -18,19 +18,36 @@ node_modules
 .pnp.*
 
 # Production
+build/
 dist/
+
+# next.js
+.next/
+out/
+
+# Env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
 # Logs
 logs
 *.log
 npm-debug.log*
 pnpm-debug.log*
+.pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
 # Misc
 .DS_Store
+*.pem
 
 # Tests
 coverage/
