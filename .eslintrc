@@ -6,6 +6,8 @@
     },
     "extends": [
         "standard-with-typescript",
+        "next",
+        "next/core-web-vitals",
         "plugin:react/recommended",
         "prettier"
     ],
